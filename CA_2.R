@@ -123,13 +123,6 @@ library(corrplot)
 windows(20,18)
 cor_matrix <- cor(data_frame[, c("Age", "Body_fat", "Chest_circumference", "Density","Knee_circumference", "Weight")], use = "complete.obs")
 
-Check for normality
-
-
-
-
-
-
 # Skewness function to examine normality
 # install.packages("e1071")
 library(e1071)
